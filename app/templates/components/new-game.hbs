@@ -1,1 +1,22 @@
-{{yield}}
+{{#if addNewGame}}
+<h1>New Games</h1>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="name">Name: </label>
+      {{input value=name id="name"}}
+    </div>
+    <div class="form-group">
+      <label for="about">About: </label>
+      {{input value=about id="about"}}
+    </div>
+    <div class="form-group">
+      <label for="age"> Age: </label>
+      {{input value=age id="age"}}
+    </div>
+    <div class="form-group">
+      <label for="image">Image URL: </label>
+      {{input value=image id="image"}}
+    </div>
+  </form>
+</div>
