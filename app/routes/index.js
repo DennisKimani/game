@@ -10,7 +10,11 @@ export default Ember.Route.extend({
       var newGame = this.store.createRecord('game', params);
       newGame.save();
       this.transtionTo('index');
-    }
+    },
 
+    destroyGame(game) {
+      game.destroyRecord();
+      this.transtionTo('index');
+    }
   }
 });
