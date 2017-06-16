@@ -14,6 +14,16 @@
     "about": "You are a hire assasin whose work is to take out most of the most protected people and find away out with out being caught.",
     "age": 12,
     "image": "http://hdwallpapersbuzz.com/wp-content/uploads/2017/03/1920x1080-wallpaper-gaming-images-11-300x200.jpg"
-
-  }]
+  }],
+  "consoles": [{
+    "viewer": "Mike",
+    "rating": 6,
+    "comment": "Its nice but can do better",
+    "img": "https://www.walldevil.com/wallpapers/a68/thumb/4294-men-dead-lynch-wallpapers.jpg",
+    }, {
+      "viewer": "Jane",
+      "rating": 8,
+      "comment": "Its really fun",
+      "img": "http://hdwallpapersbuzz.com/wp-content/uploads/2017/02/wallpapers-hd-games-images-20-300x200.jpg"
+      }]
 }

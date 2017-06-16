@@ -6,3 +6,15 @@
     {{game-tile game=game }}
   {{/each}}
 </ul>
+
+{{new-game saveGame2="saveGame3"}}
+
+<h2> New ideas</h2>
+
+<ul>
+{{#each model.consoles as |console|}}
+<li> {{console.rating}} - {{console.comment}} - {{console.viewer}}<br>
+<img src={{console.img}} alt={{console.comment}}>
+</li>
+{{/each}}
+</ul>
