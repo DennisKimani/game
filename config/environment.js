@@ -17,6 +17,14 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyBiJN5AtxkOenOIpKq3YfJhbrDn_cNEbb0",
+      authDomain: "video-game-59458.firebaseapp.com",
+      databaseURL: "https://video-game-59458.firebaseio.com",
+      projectId: "video-game-59458",
+      messagingSenderId: "704991607463"
+    },
+    
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
