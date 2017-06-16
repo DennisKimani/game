@@ -1,4 +1,5 @@
 <h2>View more of {{model.name}}</h2>
 <p><strong>Information:-</strong> {{model.about}}</p>
 
-{{game-detail game=model}}
+{{update-game game=model update="update"}}
+{{game-detail game=model destroyGame="destroyGame"}}

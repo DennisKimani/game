@@ -1,1 +1,4 @@
-{{yield}}
+{{game.name}} is about {{game.about}}<br>
+<p><img src={{game.image}} alt={{game.type}}></p>
+
+<button {{action 'delete' game}}>Delete </button><button {{action 'update' game}}>Update</button>
