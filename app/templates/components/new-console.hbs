@@ -1,0 +1,26 @@
+{{#if addNewConsole}}
+<h2> New suggestions</h2>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="viewer">Name: </label>
+      {{input value=viewer  id="viewer"}}
+    </div>
+    <div class="form-group">
+      <label for="rating">Rating: </label>
+      {{input value=rating  id="rating"}}
+    </div>
+    <div class="form-group">
+      <label for="comment">Comment: </label>
+      {{input value=comment  id="comment"}}
+    </div>
+    <div class="form-group">
+      <label for="img">Image: </label>
+      {{input value=img  id="img"}}
+    </div>
+    <button {{action 'saveConsole'}}>Save</button>
+  </form>
+</div>
+{{else}}
+<button {{action 'consoleFormShow'}}>New Comment</button>
+{{/if}}
