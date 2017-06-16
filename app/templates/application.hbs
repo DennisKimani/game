@@ -1,5 +1,19 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
-
-{{outlet}}
+<div class="row">
+  <!--div class="col-md-1"-->
+    <nav class="navbar navbar-light bg-faded">
+      <a class="navbar-brand" href="#">
+    <img src="https://cdn2.iconfinder.com/data/icons/crystalproject/crystal_project_256x256/apps/package_games.png" width="50" height="50" class="d-inline-block align-top" alt="game-logo">
+<!--div class="col-md-3"-->
+    <!--h2>Video-game</h2-->
+  <!--/div-->
+    </a>
+    </nav>
+  <!--/div-->
+  <!--div class="col-md-8"-->
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    <!--/div-->
+</div>
+<hr> {{outlet}}
